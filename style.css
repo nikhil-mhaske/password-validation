@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: whitesmoke;
+}
+
+.wrapper {
+    background: white;
+    width: 300px;
+    padding: 28px;
+    border-radius: 10px;
+}
+
+.password-field {
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.password-field input {
+    width: 100%;
+    height: 100%;
+    padding: 0 38px 0 15px;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.password-field i {
+    right: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size: 1rem;
+    color: #999;
+    cursor: pointer;
+}
+
+.password-content {
+    margin: 20px 0px 5px 0px;
+}
+
+.password-content p {
+    font-size: 0.9rem;
+}
+
+.validation-list {
+    margin-top: 5px;
+}
+
+.validation-list li{
+    list-style: none;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.validation-list li i {
+    font-size: 0.5rem;
+    color: #aaa;
+    width: 15px;
+}
+
+.validation-list li.valid i {
+    color: lime;
+}
+
+.validation-list li span {
+    margin-left: 5px;
+}
+
+.validation-list li.valid span {
+    color: #999;
+}
